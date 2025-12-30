@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = ['https://app-errand.netlify.app']
+CORS_ALLOWED_ORIGINS = ['https://app-errand.netlify.app','https://admin-errand-app.netlify.app']
 
 ROOT_URLCONF = 'errand_backend.urls'
 
