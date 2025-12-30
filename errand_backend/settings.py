@@ -26,7 +26,7 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://errand-app-backend.onrender.com',]
 
 
 # Application definition
@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = ['http://127.0.0.1:5500', 'http://localhost:5500','http://127.0.0.1:5501',"http://localhost:5501"]
+CORS_ALLOWED_ORIGINS = ['https://app-errand.netlify.app']
 
 ROOT_URLCONF = 'errand_backend.urls'
 
